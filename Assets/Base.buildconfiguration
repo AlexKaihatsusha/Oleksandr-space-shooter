@@ -1,0 +1,44 @@
+{
+    "Show": true,
+    "Dependencies": [],
+    "Components": [
+        {
+            "$type": "Unity.Build.Classic.ClassicBuildProfile, Unity.Build.Classic",
+            "$version": 1,
+            "Platform": "StandaloneWindows64",
+            "Configuration": 3
+        },
+        {
+            "$type": "Unity.Build.Common.GeneralSettings, Unity.Build",
+            "ProductName": "SpaceShooterOY",
+            "CompanyName": "DefaultCompany",
+            "Version": "1.0"
+        },
+        {
+            "$type": "Unity.Build.Common.SceneList, Unity.Build",
+            "$version": 1,
+            "BuildCurrentScene": true,
+            "SceneInfos": [
+                {
+                    "Scene": "GlobalObjectId_V1-1-8c9cfa26abfee488c85f1582747f6a02-102900000-0",
+                    "AutoLoad": true
+                },
+                {
+                    "Scene": "GlobalObjectId_V1-1-ded6e476c4040894ebfc11548fe0747f-102900000-0",
+                    "AutoLoad": true
+                }
+            ]
+        },
+        {
+            "$type": "Unity.Build.Classic.ClassicScriptingSettings, Unity.Build.Classic",
+            "ScriptingBackend": 0,
+            "Il2CppCompilerConfiguration": 1,
+            "UseIncrementalGC": false
+        },
+        {
+            "$type": "Unity.Build.Classic.ClassicCodeStrippingOptions, Unity.Build.Classic",
+            "StripEngineCode": true,
+            "ManagedStrippingLevel": 0
+        }
+    ]
+}
