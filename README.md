@@ -36,5 +36,5 @@ In SpawnerSystem I added new function HandleWave(and added to Query component Wa
 Finally, I created executable build, I faced with some problems adding packages (because they were hidden).
 
 Thank you for you time and attention!!!!
-Have a magnificant day!
+Have a magnificent day!
 
