@@ -34,7 +34,7 @@ I wouldn't say that this approach is ideal for solving the problem of collision 
 In SpawnerSystem I added new function HandleWave(and added to Query component WaveData to process). So and there is just a simple time updating and switching on/off waves, and spawn asteroids when wave is going on
 
 Finally, I created executable build, I faced with some problems adding packages (because they were hidden).
-
+I made some analysis using Profiler, I noticed that mostly rendering takes more time than the code 
 Thank you for you time and attention!!!!
 Have a magnificent day!
 
