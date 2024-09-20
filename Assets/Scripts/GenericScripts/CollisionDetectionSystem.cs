@@ -1,11 +1,6 @@
 using Unity.Burst;
-using Unity.Collections;
 using Unity.Entities;
-using Unity.Entities.Content;
-using Unity.Jobs;
 using Unity.Mathematics;
-using Unity.Physics;
-using Unity.Physics.Systems;
 using Unity.Transforms;
 using UnityEngine;
 

@@ -1,13 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using Unity.Entities;
 using Unity.Mathematics;
-using Unity.Physics;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using Collider = Unity.Physics.Collider;
-using SphereCollider = UnityEngine.SphereCollider;
 
 public class AsteroidAuthoring : MonoBehaviour
 {

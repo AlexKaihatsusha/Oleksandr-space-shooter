@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using Unity.Entities;
-using UnityEngine;
-using UnityEngine.PlayerLoop;
+
 
 public partial struct LifeTimeManagmentSystem : ISystem
 {

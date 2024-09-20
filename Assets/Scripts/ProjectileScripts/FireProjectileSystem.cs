@@ -8,10 +8,10 @@ using Unity.Transforms;
 
 [UpdateInGroup(typeof(SimulationSystemGroup))]
 [UpdateBefore(typeof(TransformSystemGroup))]
-
+[BurstCompile]
 public partial struct FireProjectileSystem : ISystem
 {
-    
+    [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
         //buffer for our commands
