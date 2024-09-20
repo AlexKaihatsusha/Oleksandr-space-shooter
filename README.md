@@ -14,7 +14,7 @@ What did I add and change?
 set it to update [UpdateAfter(typeof(TransformSystemGroup))]. to run the logic after we made the move.
 In the loop I update Center float3 and assigned it the current position of the object and set the component data using SetComponentData() function.
 
-Now the most important thing is that I created a CollisionDetectionSystem that handles collision.
+- Now the most important thing is that I created a CollisionDetectionSystem that handles collision.
 
 I set it to update [UpdateInGroup(typeof(SimulationSystemGroup))] in the simulation group and [UpdateAfter(typeof(TransformSystemGroup))]  (As I did with AABB movement system, which is mentioned above, so we update collisions and AABB data with minimal differnces during update).
 
@@ -30,7 +30,7 @@ The first loop searches for Entities by ProjectileTag and AABBComponent so that 
 I wouldn't say that this approach is ideal for solving the problem of collision handling, as I haven't found a solution how we can use Jobs to handle and process  two arrays of Entities. Because the documentation doesn't show much in the way of examples or use cases
 
 
-And the waves, I added WaveData as component to Spawner and set some default data in Authoring class, I didn't want to change SpawnerCode
+- And the waves, I added WaveData as component to Spawner and set some default data in Authoring class, I didn't want to change SpawnerCode
 In SpawnerSystem I added new function HandleWave(and added to Query component WaveData to process). So and there is just a simple time updating and switching on/off waves, and spawn asteroids when wave is going on
 
 Finally, I created executable build, I faced with some problems adding packages (because they were hidden).
